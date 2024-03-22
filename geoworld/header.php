@@ -30,6 +30,13 @@ $continent = getContinents();?>
       text-anchor: middle;
     }
 
+    header {
+      background-color: #303134;
+      color: white;
+      text-align: center;
+      padding: 1em 0;
+    }
+
     @media (min-width: 768px) {
       .bd-placeholder-img-lg {
         font-size: 3.5rem;
@@ -42,7 +49,7 @@ $continent = getContinents();?>
 <body class="d-flex flex-column h-100">
 <header>
   <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand" href="index.php">GeoWorld</a>
+    <a class="navbar-brand" href="index2.php">GeoWorld</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
             aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -51,13 +58,13 @@ $continent = getContinents();?>
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index2.php">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="https://www.nationalgeographic.fr/">National Geographic</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
+          <a class="nav-link" href="https://www.wwf.fr/">WWF</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
@@ -73,10 +80,10 @@ $continent = getContinents();?>
       </ul>
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="login">Login</a>
+          <a class="nav-link" href="log.php">Login<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="register">Register</a>
+          <a class="nav-link" href="regis.php">Register<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           

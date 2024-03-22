@@ -56,6 +56,37 @@ $desPays = getCountriesByContinent($continent);
 
      </table>
     </div>
+    <style>
+    main {
+      background-image: url(https://i.pinimg.com/originals/0f/61/a9/0f61a927fd3892d1f0db35ad00285be2.gif);
+      background-attachment:fixed;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      background-size:cover;
+    }
+
+    .table{
+      width:100%;
+      margin: bottom 1rem;
+      color:white;
+    }
+
+    table {
+      max-width: 800px;
+      color: white;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    h1, h2 {
+      color: white;
+    }
+  </style>
         <p>nombre de pays total : <?php echo getNbTotalpays(); ?></p>
 
   </div>
@@ -65,3 +96,4 @@ $desPays = getCountriesByContinent($continent);
 require_once 'javascripts.php';
 require_once 'footer.php';
 ?>
+

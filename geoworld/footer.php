@@ -21,4 +21,12 @@
 </footer>
 
   </body>
+  <style>
+     footer {
+      text-align: center;
+      padding: 1em 0;
+      background-color: #303134;
+      color: white;
+    }
+  </style>
 </html>
